@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+
+<header>
+ 
+
+  <!-- Background image -->
+  <div
+    class="p-5 text-center"
+    style="
+      background-image: url(images/z.jpg);background-size: cover;
+      height: 200px;
+    "
+  >
+    <div class="mask">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-light">
+          <h1 class="mb-3">Donate</h1>
+          <h4 class="mb-3">Enter your details here</h4>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Background image -->
+</header>
+
+
+
+
+<body style="background-color: #016A70;">
+    <div class="container mt-5">
+
+ 
+        <!--Section: Content-->
+        <section class="dark-grey-text mb-5">
+          
+          <style>
+            .map-container-section {
+              overflow:hidden;
+              padding-bottom:56.25%;
+              position:relative;
+              height:0;
+            }
+            .map-container-section iframe {
+              left:0;
+              top:0;
+              height:100%;
+              width:100%;
+              position:absolute;
+            }
+          </style>
+    
+          <div class="row">
+    
+            <!-- Grid column -->
+            <div class=" col-lg-5 mb-lg-0 pb-lg-3 mb-4" style="border-radius: 25px; background-color: rgb(226, 222, 222);">
+      
+              <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4"></p>
+  
+              <form class="mx-1 mx-md-4">
+
+                <div class="d-flex flex-row align-items-center mb-4">
+                  <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                  <div class="form-outline flex-fill mb-0">
+                    <input type="text" id="form3Example1c" class="form-control" />
+                    <label class="form-label" for="form3Example1c">Your Name</label>
+                  </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center mb-4">
+                  <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                  <div class="form-outline flex-fill mb-0">
+                    <input type="email" id="form3Example3c" class="form-control" />
+                    <label class="form-label" for="form3Example3c">Your Email</label>
+                  </div>
+                </div>
+
+
+                <div class="d-flex flex-row align-items-center mb-4">
+                  <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                  <div class="form-outline flex-fill mb-0">
+                    <input type="number" id="form3Example3c" class="form-control" />
+                    <label class="form-label" for="form3Example3c">Contact</label>
+                  </div>
+                </div>
+
+
+                <div class="d-flex flex-row align-items-center mb-4">
+                  <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                  <div class="form-outline flex-fill mb-0">
+                    <input type="text" id="form3Example1c" class="form-control" />
+                    <label class="form-label" for="form3Example1c">Address</label>
+                  </div>
+                </div>
+
+                <div class="d-flex flex-row align-items-center mb-4">
+                  <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                  <div class="form-outline flex-fill mb-0">
+                    <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Select
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">IT Equipment</a></li>
+                        <li><a class="dropdown-item" href="#">Telecom Equipment</a></li>
+                        <li><a class="dropdown-item" href="#">Printing Equipments</a></li>
+                        <li><a class="dropdown-item" href="#">Consumer Electronics</a></li>
+                        <li><a class="dropdown-item" href="#">Electrical Equipments</a></li>
+                        <li><a class="dropdown-item" href="#">Mercury containing lamps</a></li>
+
+                      </ul>
+                    </ul>
+                    </div>
+                    <label class="form-label" for="form3Example1c">Enter the type of E-Waste</label>
+                  </div>
+                </div>
+
+                
+                  <div class="drop-zone">
+                     <span class="drop-zone__prompt" style="color: black;">Drop file here or click to upload<br>(Enter images of your E-waste here)</span>
+                    <input type="file" name="myFile" class="drop-zone__input">
+                  </div><br>
+
+
+
+
+
+                <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                <a href="index.html">  <button type="button" class="btn btn-secondary btn-lg">Submit</button></a>
+                </div>
+
+              
+
+              </form>
+
+            </div>
+
+           
+    
+            <!-- Grid column -->
+            <div class="col-lg-7">
+    
+              <!--Google map-->
+              <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 450px">
+                <iframe src="https://www.google.com/maps/d/embed?mid=15cU-xM_m424O6LtJh6j6Sk2kMB_mzq4&ehbc=2E312F" width="600" height="450" style="border:0;" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
+                </iframe>
+              </div>
+              <!-- Buttons-->
+             
+    
+            </div>
+            <!-- Grid column -->
+    
+          </div>
+          <!-- Grid row -->
+    
+        </section>
+        <!--Section: Content-->
+    
+    
+      </div>
+      <script src="index.js"></script> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"  crossorigin="anonymous"></script>   
+
+</body>
+</html>
